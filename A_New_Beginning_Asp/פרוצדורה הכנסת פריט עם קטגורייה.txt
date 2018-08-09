@@ -1,0 +1,22 @@
+CREATE PROC EnterItem
+@item_name nvarchar(32),
+@item_price decimal(10,2),
+@item_image varchar(max),
+@item_description nvarchar(100),
+@category_code int
+AS
+IF NOT EXISTS(
+SELECT item_code, item_name, item_price, item_image, item_description, category_code
+FROM   dbo.Items
+WHERE (item_name = @item_name) AND (item_price = @item_price) AND (item_image = @item_image) AND (item_description = @item_description) AND (category_code = @category_code)) 
+BEGIN
+BEGIN TRY
+			BEGIN TRANSACTION
+				INSERT INTO Items(item_name,item_price,item_image,item_description,category_code)VALUES(@item_name,@item_price,@item_image,@item_description,@category_code)
+			 COMMIT TRANSACTION
+		END TRY
+		BEGIN CATCH
+			ROLLBACK TRANSACTION
+		END CATCH
+	END
+GO

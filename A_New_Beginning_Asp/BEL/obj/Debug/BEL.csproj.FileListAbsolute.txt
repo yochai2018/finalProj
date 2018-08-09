@@ -1,0 +1,6 @@
+C:\Users\yocha\Desktop\A_New_Beginning_Asp\BEL\bin\Debug\BEL.dll
+C:\Users\yocha\Desktop\A_New_Beginning_Asp\BEL\bin\Debug\BEL.pdb
+C:\Users\yocha\Desktop\A_New_Beginning_Asp\BEL\obj\Debug\BEL.csproj.CoreCompileInputs.cache
+C:\Users\yocha\Desktop\A_New_Beginning_Asp\BEL\obj\Debug\BEL.dll
+C:\Users\yocha\Desktop\A_New_Beginning_Asp\BEL\obj\Debug\BEL.pdb
+C:\Users\yocha\Desktop\A_New_Beginning_Asp\BEL\obj\Debug\BEL.csprojAssemblyReference.cache

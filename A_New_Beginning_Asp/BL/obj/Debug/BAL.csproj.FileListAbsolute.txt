@@ -1,0 +1,11 @@
+C:\Users\yocha\Desktop\A_New_Beginning_Asp\BL\obj\Debug\BAL.csproj.CoreCompileInputs.cache
+C:\Users\yocha\Desktop\A_New_Beginning_Asp\BL\obj\Debug\BL.dll
+C:\Users\yocha\Desktop\A_New_Beginning_Asp\BL\obj\Debug\BL.pdb
+C:\Users\yocha\Desktop\A_New_Beginning_Asp\BL\bin\Debug\BL.dll
+C:\Users\yocha\Desktop\A_New_Beginning_Asp\BL\bin\Debug\BL.pdb
+C:\Users\yocha\Desktop\A_New_Beginning_Asp\BL\bin\Debug\BEL.dll
+C:\Users\yocha\Desktop\A_New_Beginning_Asp\BL\bin\Debug\DAL.dll
+C:\Users\yocha\Desktop\A_New_Beginning_Asp\BL\bin\Debug\BEL.pdb
+C:\Users\yocha\Desktop\A_New_Beginning_Asp\BL\bin\Debug\DAL.pdb
+C:\Users\yocha\Desktop\A_New_Beginning_Asp\BL\obj\Debug\BAL.csprojAssemblyReference.cache
+C:\Users\yocha\Desktop\A_New_Beginning_Asp\BL\obj\Debug\BAL.csproj.CopyComplete

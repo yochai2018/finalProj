@@ -1,0 +1,14 @@
+CREATE proc DeleteItems
+@item_code int
+AS
+IF EXISTS (SELECT item_code FROM  dbo.Items WHERE (item_code = @item_code))
+BEGIN
+		BEGIN TRY
+			BEGIN TRANSACTION
+			DELETE FROM Items WHERE item_code = @item_code
+			 COMMIT TRANSACTION
+		END TRY
+		BEGIN CATCH
+			ROLLBACK TRANSACTION
+		END CATCH
+	END
